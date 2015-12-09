@@ -25,10 +25,6 @@
   "bin": {
     "gonzales": "./bin/gonzales.js"
   },
-  "files": [
-    "bin",
-    "lib"
-  ],
   "dependencies": {
     "minimist": "1.1.x"
   },
