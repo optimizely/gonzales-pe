@@ -20,7 +20,8 @@
     "build": "./scripts/build.sh",
     "init": "./scripts/init.sh",
     "log": "./scripts/log.sh",
-    "test": "./scripts/build.sh && ./scripts/test.sh"
+    "test": "./scripts/build.sh && ./scripts/test.sh",
+    "postinstall": "npm run init"
   },
   "bin": {
     "gonzales": "./bin/gonzales.js"
