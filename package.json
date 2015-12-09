@@ -20,17 +20,20 @@
     "build": "./scripts/build.sh",
     "init": "./scripts/init.sh",
     "log": "./scripts/log.sh",
-    "test": "./scripts/build.sh && ./scripts/test.sh",
-    "prepublish": "npm run init"
+    "test": "./scripts/build.sh && ./scripts/test.sh"
   },
   "bin": {
     "gonzales": "./bin/gonzales.js"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "dependencies": {
-    "babel": "^5.5.3",
     "minimist": "1.1.x"
   },
   "devDependencies": {
+    "babel": "^5.5.3",
     "coffee-script": "~1.7.1",
     "jscs": "2.1.0",
     "jshint": "2.8.0",
